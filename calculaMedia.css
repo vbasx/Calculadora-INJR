@@ -1,0 +1,74 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(181, 159, 190), rgb(40, 4, 43));
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculadora {
+    background-color: #292929;
+    width: 20vw;
+    height: 22vw;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#entrada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 2vh;
+    scale: 4vw;
+}
+
+#saida {
+    background-color: white;
+    width: 95%;
+    height: 15em;
+    margin-bottom: 2vh;
+}
+
+input, textarea {
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    resize: none;
+}
+
+button {
+    border-radius: 10px;
+    padding: 2%;
+    border: none;
+    background-color: #46aa56;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #49dd62;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+span, p {
+    color: white;
+}
+
+#saidaMedia {
+    margin-top: 3vh;
+}
